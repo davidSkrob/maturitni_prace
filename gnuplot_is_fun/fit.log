@@ -1,0 +1,694 @@
+
+
+*******************************************************************************
+Mon May 23 19:26:55 2022
+
+
+FIT:    data read from "measured.dat" u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 13
+function used for fitting: f(x)
+	f(x) = W * exp(x * Z)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   W             Z            
+   0 1.5447052714e+04   0.00e+00  9.83e-01    1.000000e+00   1.000000e-03
+ 360 1.0416266171e+01  -5.84e-02  9.83e-07    1.133808e-05   4.268532e-02
+
+After 360 iterations the fit converged.
+final sum of squares of residuals : 10.4163
+rel. change during last iteration : -5.83931e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.973105
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.946933
+p-value of the Chisq distribution (FIT_P)              : 0.493377
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+W               = 1.13381e-05      +/- 4.249e-06    (37.47%)
+Z               = 0.0426853        +/- 0.001047     (2.453%)
+
+correlation matrix of the fit parameters:
+                W      Z      
+W               1.000 
+Z              -0.999  1.000 
+
+
+*******************************************************************************
+Mon May 23 19:30:57 2022
+
+
+FIT:    data read from 'radiacni_pozadí.txt' using 1:2
+        format = x:z
+        #datapoints = 16384
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0∗exp(−lambda∗x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue Jun 07 13:54:58 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0∗exp(−lambda∗x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue Jun 07 13:55:35 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0∗exp(-lambda * x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue Jun 07 13:56:05 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0 * exp(-lambda * x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           lambda       
+   0 1.1014799007e+04   0.00e+00  2.79e+01    1.000000e+02   5.000000e-03
+   8 3.2594054819e-03  -2.40e-01  2.79e-07    6.163482e-02   1.450244e-03
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.00325941
+rel. change during last iteration : -2.39848e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0215784
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000465629
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 0.0616348        +/- 0.01675      (27.18%)
+lambda          = 0.00145024       +/- 0.0007929    (54.68%)
+
+correlation matrix of the fit parameters:
+                A_0    lambda 
+A_0             1.000 
+lambda          0.588  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:40:39 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1          
+   0 9.9717336461e+06   0.00e+00  5.38e+02    1.000000e+02   1.000000e+01
+   5 3.2829523637e-03  -1.36e-07  5.38e-03    2.971215e-02  -3.964298e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00328295
+rel. change during last iteration : -1.36275e-12
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0216563
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000468993
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 0.0297121        +/- 0.007907     (26.61%)
+A_1             = -0.0039643       +/- 0.001182     (29.81%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    
+A_0             1.000 
+A_1            -0.990  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:41:45 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1          
+   0 5.3816410161e+09   0.00e+00  5.38e+02    1.000000e+02   1.000000e+01
+   4 7.7204527564e+06  -7.40e-02  5.38e-02    4.356135e+03  -1.189883e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 7.72045e+06
+rel. change during last iteration : -7.39752e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1050.2
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.10292e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 4356.13          +/- 383.4        (8.802%)
+A_1             = -1189.88         +/- 57.31        (4.817%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    
+A_0             1.000 
+A_1            -0.990  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:42:07 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3          
+   0 5.3816410161e+09   0.00e+00  1.04e+04    1.000000e+02   1.000000e+01   1.000000e+01   1.000000e+01
+   8 2.0381658641e-04  -1.57e-06  1.04e-04   -6.351088e-01   3.364517e-01  -5.667084e-02   3.083594e-03
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.000203817
+rel. change during last iteration : -1.57295e-11
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00638462
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.07633e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = -0.635109        +/- 0.07731      (12.17%)
+A_1             = 0.336452         +/- 0.03999      (11.89%)
+A_2             = -0.0566708       +/- 0.006763     (11.93%)
+A_3             = 0.00308359       +/- 0.0003754    (12.18%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    
+A_0             1.000 
+A_1            -0.998  1.000 
+A_2             0.992 -0.998  1.000 
+A_3            -0.981  0.992 -0.998  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:49:31 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4          
+   0 2.5843449778e+09   0.00e+00  6.58e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  10 6.5801448458e-06  -1.17e-07  6.58e-06   -1.959826e+00   1.296517e+00  -3.126531e-01   3.284971e-02  -1.275243e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.58014e-06
+rel. change during last iteration : -1.17423e-12
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00128259
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.64504e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = -1.95983         +/- 0.122        (6.224%)
+A_1             = 1.29652          +/- 0.08805      (6.791%)
+A_2             = -0.312653        +/- 0.02342      (7.49%)
+A_3             = 0.0328497        +/- 0.002719     (8.279%)
+A_4             = -0.00127524      +/- 0.0001165    (9.133%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    
+A_0             1.000 
+A_1            -0.999  1.000 
+A_2             0.998 -0.999  1.000 
+A_3            -0.995  0.998 -1.000  1.000 
+A_4             0.992 -0.996  0.998 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:49:57 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4          
+   0 2.5843449778e+09   0.00e+00  6.58e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  10 6.5801448458e-06  -1.17e-07  6.58e-06   -1.959826e+00   1.296517e+00  -3.126531e-01   3.284971e-02  -1.275243e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.58014e-06
+rel. change during last iteration : -1.17423e-12
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00128259
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.64504e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = -1.95983         +/- 0.122        (6.224%)
+A_1             = 1.29652          +/- 0.08805      (6.791%)
+A_2             = -0.312653        +/- 0.02342      (7.49%)
+A_3             = 0.0328497        +/- 0.002719     (8.279%)
+A_4             = -0.00127524      +/- 0.0001165    (9.133%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    
+A_0             1.000 
+A_1            -0.999  1.000 
+A_2             0.998 -0.999  1.000 
+A_3            -0.995  0.998 -1.000  1.000 
+A_4             0.992 -0.996  0.998 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:50:29 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4          
+   0 2.5843449778e+09   0.00e+00  6.58e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  10 6.5801448458e-06  -1.17e-07  6.58e-06   -1.959826e+00   1.296517e+00  -3.126531e-01   3.284971e-02  -1.275243e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.58014e-06
+rel. change during last iteration : -1.17423e-12
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00128259
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.64504e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = -1.95983         +/- 0.122        (6.224%)
+A_1             = 1.29652          +/- 0.08805      (6.791%)
+A_2             = -0.312653        +/- 0.02342      (7.49%)
+A_3             = 0.0328497        +/- 0.002719     (8.279%)
+A_4             = -0.00127524      +/- 0.0001165    (9.133%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    
+A_0             1.000 
+A_1            -0.999  1.000 
+A_2             0.998 -0.999  1.000 
+A_3            -0.995  0.998 -1.000  1.000 
+A_4             0.992 -0.996  0.998 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:53:07 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4          
+   0 2.5843449778e+09   0.00e+00  6.58e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  10 6.5801448458e-06  -1.17e-07  6.58e-06   -1.959826e+00   1.296517e+00  -3.126531e-01   3.284971e-02  -1.275243e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.58014e-06
+rel. change during last iteration : -1.17423e-12
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00128259
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.64504e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = -1.95983         +/- 0.122        (6.224%)
+A_1             = 1.29652          +/- 0.08805      (6.791%)
+A_2             = -0.312653        +/- 0.02342      (7.49%)
+A_3             = 0.0328497        +/- 0.002719     (8.279%)
+A_4             = -0.00127524      +/- 0.0001165    (9.133%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    
+A_0             1.000 
+A_1            -0.999  1.000 
+A_2             0.998 -0.999  1.000 
+A_3            -0.995  0.998 -1.000  1.000 
+A_4             0.992 -0.996  0.998 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Jun 07 14:56:42 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4          
+   0 2.5843449778e+09   0.00e+00  6.58e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  10 6.5801448458e-06  -1.17e-07  6.58e-06   -1.959826e+00   1.296517e+00  -3.126531e-01   3.284971e-02  -1.275243e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.58014e-06
+rel. change during last iteration : -1.17423e-12
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00128259
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.64504e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = -1.95983         +/- 0.122        (6.224%)
+A_1             = 1.29652          +/- 0.08805      (6.791%)
+A_2             = -0.312653        +/- 0.02342      (7.49%)
+A_3             = 0.0328497        +/- 0.002719     (8.279%)
+A_4             = -0.00127524      +/- 0.0001165    (9.133%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    
+A_0             1.000 
+A_1            -0.999  1.000 
+A_2             0.998 -0.999  1.000 
+A_3            -0.995  0.998 -1.000  1.000 
+A_4             0.992 -0.996  0.998 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Jun 15 16:07:53 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4          
+   0 2.5843449778e+09   0.00e+00  6.58e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  10 6.5801448458e-06  -1.17e-07  6.58e-06   -1.959826e+00   1.296517e+00  -3.126531e-01   3.284971e-02  -1.275243e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.58014e-06
+rel. change during last iteration : -1.17423e-12
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00128259
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.64504e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = -1.95983         +/- 0.122        (6.224%)
+A_1             = 1.29652          +/- 0.08805      (6.791%)
+A_2             = -0.312653        +/- 0.02342      (7.49%)
+A_3             = 0.0328497        +/- 0.002719     (8.279%)
+A_4             = -0.00127524      +/- 0.0001165    (9.133%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    
+A_0             1.000 
+A_1            -0.999  1.000 
+A_2             0.998 -0.999  1.000 
+A_3            -0.995  0.998 -1.000  1.000 
+A_4             0.992 -0.996  0.998 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Jun 15 16:16:00 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4           c            
+   0 2.5846039277e+09   0.00e+00  6.00e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  12 2.6080177232e-06  -1.94e-06  6.00e-01    1.568236e+01  -4.814139e+00   7.308634e-01  -5.509915e-02   1.654519e-03  -2.007447e+01
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 2.60802e-06
+rel. change during last iteration : -1.94327e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000932384
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.69339e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 15.6824          +/- 8.254        (52.63%)
+A_1             = -4.81414         +/- 2.859        (59.4%)
+A_2             = 0.730863         +/- 0.4885       (66.84%)
+A_3             = -0.0550991       +/- 0.04119      (74.76%)
+A_4             = 0.00165452       +/- 0.001373     (83%)
+c               = -20.0745         +/- 9.391        (46.78%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    c      
+A_0             1.000 
+A_1            -1.000  1.000 
+A_2             1.000 -1.000  1.000 
+A_3            -0.999  1.000 -1.000  1.000 
+A_4             0.999 -0.999  1.000 -1.000  1.000 
+c              -1.000  1.000 -0.999  0.999 -0.998  1.000 
+
+
+*******************************************************************************
+Wed Jun 15 16:16:57 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4           c            
+   0 2.5846039277e+09   0.00e+00  6.00e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  12 2.6080177232e-06  -1.94e-06  6.00e-01    1.568236e+01  -4.814139e+00   7.308634e-01  -5.509915e-02   1.654519e-03  -2.007447e+01
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 2.60802e-06
+rel. change during last iteration : -1.94327e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000932384
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.69339e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 15.6824          +/- 8.254        (52.63%)
+A_1             = -4.81414         +/- 2.859        (59.4%)
+A_2             = 0.730863         +/- 0.4885       (66.84%)
+A_3             = -0.0550991       +/- 0.04119      (74.76%)
+A_4             = 0.00165452       +/- 0.001373     (83%)
+c               = -20.0745         +/- 9.391        (46.78%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    c      
+A_0             1.000 
+A_1            -1.000  1.000 
+A_2             1.000 -1.000  1.000 
+A_3            -0.999  1.000 -1.000  1.000 
+A_4             0.999 -0.999  1.000 -1.000  1.000 
+c              -1.000  1.000 -0.999  0.999 -0.998  1.000 
+
+
+*******************************************************************************
+Wed Jun 15 16:17:08 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4           c            
+   0 2.5846039277e+09   0.00e+00  6.00e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  12 2.6080177232e-06  -1.94e-06  6.00e-01    1.568236e+01  -4.814139e+00   7.308634e-01  -5.509915e-02   1.654519e-03  -2.007447e+01
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 2.60802e-06
+rel. change during last iteration : -1.94327e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000932384
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.69339e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 15.6824          +/- 8.254        (52.63%)
+A_1             = -4.81414         +/- 2.859        (59.4%)
+A_2             = 0.730863         +/- 0.4885       (66.84%)
+A_3             = -0.0550991       +/- 0.04119      (74.76%)
+A_4             = 0.00165452       +/- 0.001373     (83%)
+c               = -20.0745         +/- 9.391        (46.78%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    c      
+A_0             1.000 
+A_1            -1.000  1.000 
+A_2             1.000 -1.000  1.000 
+A_3            -0.999  1.000 -1.000  1.000 
+A_4             0.999 -0.999  1.000 -1.000  1.000 
+c              -1.000  1.000 -0.999  0.999 -0.998  1.000 
+
+
+*******************************************************************************
+Wed Jun 15 16:17:17 2022
+
+
+FIT:    data read from 'rocnikovka_data.csv' using 1:2
+        format = x:z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: A(x)
+	A(x)=A_0*log(x)+ A_1*log(x)**2 + A_2*log(x)**3 + A_3*log(x)**4 + A_4*log(x)**5+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A_0           A_1           A_2           A_3           A_4           c            
+   0 2.5846039277e+09   0.00e+00  6.00e+03    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  12 2.6080177232e-06  -1.94e-06  6.00e-01    1.568236e+01  -4.814139e+00   7.308634e-01  -5.509915e-02   1.654519e-03  -2.007447e+01
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 2.60802e-06
+rel. change during last iteration : -1.94327e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000932384
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.69339e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A_0             = 15.6824          +/- 8.254        (52.63%)
+A_1             = -4.81414         +/- 2.859        (59.4%)
+A_2             = 0.730863         +/- 0.4885       (66.84%)
+A_3             = -0.0550991       +/- 0.04119      (74.76%)
+A_4             = 0.00165452       +/- 0.001373     (83%)
+c               = -20.0745         +/- 9.391        (46.78%)
+
+correlation matrix of the fit parameters:
+                A_0    A_1    A_2    A_3    A_4    c      
+A_0             1.000 
+A_1            -1.000  1.000 
+A_2             1.000 -1.000  1.000 
+A_3            -0.999  1.000 -1.000  1.000 
+A_4             0.999 -0.999  1.000 -1.000  1.000 
+c              -1.000  1.000 -0.999  0.999 -0.998  1.000 
+
+
+*******************************************************************************
+Wed Jun 15 16:32:21 2022
+
+
+FIT:    data read from 'exp.dat'
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x*x + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7149905425e+06   0.00e+00  8.36e+00    1.200000e+00   5.000000e-01   1.000000e-01
+   6 6.4058812121e+04  -5.37e-09  8.36e-06    7.278788e+01  -5.309030e+02   9.255455e+02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 64058.8
+rel. change during last iteration : -5.37245e-14
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 89.4838
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8007.35
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 72.7879          +/- 12.22        (16.79%)
+b               = -530.903         +/- 63.44        (11.95%)
+c               = 925.545          +/- 68.17        (7.366%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.963  1.000 
+c               0.672 -0.816  1.000 

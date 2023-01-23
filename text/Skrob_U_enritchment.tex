@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{pgfplotstable}
+\usepackage{mhchem}
+\usepackage[hidelinks]{hyperref}
+\def\fonte{1} %1=times else=arial(helvet)
+\input{packages.tex}
+\graphicspath{ {./img/} }
+\def\grafika{0} %1
+\sisetup{
+	round-mode = places,
+	round-precision = 6,
+	round-pad = false
+}
+
+\usepackage[
+backend=bibtex,  %if we want unicode and many other features (biber is already by default)
+style=iso-numeric, % or another iso-<style>
+sorting=nty
+]{biblatex}
+\addbibresource{refs.bib}
+
+\newcommand{\e}{$e^-$}
+\def\uran #1 {$\ce{ ^{#1}_{92}U }$}%TODO předelat aby mi to netvrdilo ze mam uran s 235 neutronama, a zhodnotit, jestli je to vubec potreba
+\newcommand{\nazevprace}{Měření koncentrace U-235 pomocí nedestruktivních metod}
+\newcommand{\obor}{Technické lyceum 78-42-M/01}
+\newcommand{\rok}{2022/2023}
+\newcommand{\trida}{L4A}
+\newcommand{\jmeno}{David}
+\newcommand{\prijmeni}{Škrob}
+
+\begin{document}
+\begin{spacing}{1.5}
+	\input{title.tex}
+\tableofcontents
+\pagestyle{plain}
+\thispagestyle{empty}
+\newpage
+
+\section*{Zadání}
+\addcontentsline{toc}{section}{Zadání}
+\thispagestyle{empty} %nebude číslovat stránku
+	Hlavní cíl: Osvojit si metodiku měření obohacení uranových vzorků pomocí gama spektrometrie\\
+	
+	Postup:
+	\begin{enumerate}
+		\item Proveďte rešerši metodik založených na gama spektrometrii používaných pro vyhodnocování stupně obohacení uranu v neznámých vzorcích.
+		\item Proveďte nastavení HPGe detektoru s ohledem na energetický rozsah gama fotonů emitovanou z uranových vzorků a následně změřte efektivitu pro vybranou měřící pozici.
+		\item Na základě porovnání měření gama spektra rozpadové řady u vzorků se známým a neznámým obohacením určete množství U-235 v neznámých vzorcích.
+		\item Měření opakujte pro několik vzorků a výsledky následně porovnejte.
+\end{enumerate}
+\newpage
+%TODO zkratit druhy detektoru, popisovat spis jen polovodicovej
+
+\section*{Úvod}
+\setcounter{page}{5} %nastaví číslování stránky
+\addcontentsline{toc}{section}{Úvod}
+
+%TODO neco vic o uranu a ne o mereni
+	Zvolil jsem jako nedestruktivní analýzy uranových vzorků gama spektroskopii pomoci HPGe polovodičového detektoru gama záření. Díky tomu že se jedná o zcela nedestruktivní metodu, používá se při kontrole radioaktivního nákladu, zda neobsahuje izotopy, jenž by mohli sloužit pro jaderný terorismus.\\
+	Gama záření je vysokoenergetické elektromagnetické záření, které vzniká v jádru atomu při radioaktivních přeměnách. Rozdíl mezi zářením gama a zářením rentgenovým je v původu záření. Rentgenové záření vzniká v atomovém obalu, a má většinou nižší energii (\SI{1}{\kilo\electronvolt} až v extrémnínch připadech \SI{6000}{\kilo\electronvolt}). Gama záření pochází z atomvého jádra, má vyšší energie (\SI{100}{\kilo\electronvolt}, ale někdy i tak málo jako \SI{0.007}{\kilo\electronvolt}).\\%gama - thorium 229m, rtg - muonovy atom
+	Tato maturitní práce se bude zabývat určování obohacení vzorků uranu. Bude tedy určovat poměr \uran{235} vůči celkové hmotnosti vzorku.% Snaha této práce bude též najít takové metody, aby je bylo možné replikovat měření. replikovatelnost v terenu? v jad. ele?? 
+
+\newpage
+\input{CONTENT.tex}	
+\printbibliography[title={Seznam literatury, pramenů a internetových zdrojů}]
+\appendix
+\input{appendix.tex}
+\end{spacing}
+\end{document}

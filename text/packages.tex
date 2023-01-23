@@ -1,0 +1,89 @@
+\def\fontes{1}
+
+\if\fonte\fontes
+	\usepackage{times}
+\else
+	\usepackage{helvet}
+	\renewcommand{\familydefault}{\sfdefault}
+\fi
+
+\usepackage[utf8]{inputenc}
+\usepackage[lmargin=2.5cm, rmargin=2.5cm, tmargin = 2.5cm, bmargin = 2.5cm]{geometry}
+\usepackage[czech]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+%from https://tex.stackexchange.com/questions/48152/signature-date-line-with-fixed-width
+\usepackage{xparse}
+\makeatletter
+
+%Citovani data
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{--}
+\newcommand{\citovano}[3]{[cit. \newdate{date}{#1}{#2}{#3}\displaydate{date}]}
+
+\newcommand*\signaturelinewidth{5cm}
+\newcommand*\signaturelineheight{.4pt}
+\newcommand*\signaturedashleaderatom{\kern .1pt.\kern .1pt}
+\newcommand*\signaturelineraise{.4ex}
+\newcommand*\signaturelabelindent{.5cm}
+\newcommand*\signaturetextindent{}
+\NewDocumentCommand\signatureline{
+	O{\signaturelinewidth}      % line width
+	O{\signaturelabelindent}    % label margin
+	O{%                           text indentation
+		\ifx\@empty\signaturetextindent
+		.5\dimexpr #2\relax
+		\else
+		\signaturetextindent
+		\fi
+	}
+	m                           % label
+	O{\signaturelineheight}     % line height
+	O{\signaturelineraise}      % line raise
+	D||{}                       % text
+}{%
+	\parbox[t]{#1}{%
+		\leftskip #3%
+		\mbox{\strut #7}%
+		\vskip -#6%
+		\hrule height #5%
+		\vskip #6%
+		\scriptsize
+		\leftskip #2%
+		\rightskip #2%
+		\strut #4%
+	}%
+}
+\NewDocumentCommand\signaturedash{
+	O{\signaturelinewidth}      % line width
+	O{\signaturelabelindent}    % label margin
+	O{%                           text indentation
+		\ifx\@empty\signaturetextindent
+		.5\dimexpr #2\relax
+		\else
+		\signaturetextindent
+		\fi
+	}
+	m                           % label
+	O{\signaturedashleaderatom} % leader atom
+	O{\signaturelineraise}      % line raise
+	D||{}                       % text
+}{%
+	\parbox[t]{#1}{%
+		\leftskip #3%
+		\mbox{\strut #7}%
+		\vskip -#6%
+		\leftskip 0pt%
+		\hrule height 0pt%
+		\leavevmode\cleaders\hbox{#5}\hfill\kern 0pt%
+		\hrule height 0pt%
+		\vskip #6%
+		\scriptsize
+		\leftskip #2%
+		\rightskip #2%
+		\strut #4%
+	}%
+}
+

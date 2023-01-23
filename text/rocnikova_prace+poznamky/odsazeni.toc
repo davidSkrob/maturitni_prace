@@ -1,0 +1,21 @@
+\babel@toc {czech}{}\relax 
+\contentsline {section}{Zadání}{3}{section*.1}%
+\contentsline {section}{Úvod}{4}{section*.2}%
+\contentsline {section}{\numberline {1}Detekce ionizujícího záření}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Detekce fotoelektrického jevu}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Detekce Comptnova jevu}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Detekce páru pozitron-elektron}{6}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Měření účinnosti}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Vliv energie}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Energetická kalibrace detektoru}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Výpočet efektivity detektoru}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Rozdíly při měření v různých vzdálenostech}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Teoretický pokles intenzity}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Skutečná ztráta intenzity}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Jiné vlivy na měření ionizujícího záření}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Mrtvá doba detektoru}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Radiační pozadí}{10}{subsection.4.2}%
+\contentsline {section}{Závěr}{11}{figure.2}%
+\contentsline {section}{Seznam použitých značek a symbolů}{12}{section*.4}%
+\contentsline {section}{Seznam použitých odborných výrazů}{13}{section*.5}%
+\contentsline {section}{Seznam literatury, pramenů a internetových zdrojů}{14}{section*.6}%
