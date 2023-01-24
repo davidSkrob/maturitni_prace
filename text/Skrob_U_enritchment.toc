@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {czech}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Zadání}{4}{section*.2}%
+\contentsline {section}{Zadání}{3}{section*.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Úvod}{5}{section*.3}%
 \defcounter {refsection}{0}\relax 
@@ -19,7 +19,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.1}Geigerův–Müllerův počítač}{6}{subsubsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Scintilační detektory}{6}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Scintilační detektory}{7}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.3}Polovodičové detektory}{7}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
@@ -27,15 +27,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1}Fotoelektrický effekt}{7}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Comptnův jev}{7}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Comptnův jev}{8}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Tvorba párů $e^-$a $e^+$}{7}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3}Tvorba párů $e^-$a $e^+$}{8}{subsubsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Kalibrce HPGe detektoru}{8}{section.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Energetická kalibrace}{8}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Účinnostní kalibrace}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Účinnostní kalibrace}{9}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Opravné faktory}{9}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
@@ -48,10 +48,6 @@
 \contentsline {subsection}{\numberline {4.1}Postup měření}{9}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Výsledky měření}{9}{subsection.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Zpracovaní dat}{9}{subsection.4.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Seznam použitých odborných výrazů}{11}{section*.4}%
 \babel@toc {english}{}\relax 
 \babel@toc {czech}{}\relax 
 \babel@toc {english}{}\relax 
@@ -83,10 +79,4 @@
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Mereni}{13}{appendix.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1}Postup měření}{13}{subsection.A.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2}Výsledky měření}{13}{subsection.A.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3}Zpracovani dat}{13}{subsection.A.3}%
+\contentsline {section}{Seznam použitých odborných výrazů}{13}{section*.6}%

@@ -1,8 +1,4 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage{booktabs}
-\usepackage{siunitx}
-\usepackage{pgfplotstable}
-\usepackage{mhchem}
 \usepackage[hidelinks]{hyperref}
 \def\fonte{1} %1=times else=arial(helvet)
 \input{packages.tex}
@@ -22,7 +18,7 @@ sorting=nty
 \addbibresource{refs.bib}
 
 \newcommand{\e}{$e^-$}
-\def\uran #1 {$\ce{ ^{#1}_{92}U }$}%TODO předelat aby mi to netvrdilo ze mam uran s 235 neutronama, a zhodnotit, jestli je to vubec potreba
+\def\uran #1 {$\ce{ ^{#1}_{92}U }$}
 \newcommand{\nazevprace}{Měření koncentrace U-235 pomocí nedestruktivních metod}
 \newcommand{\obor}{Technické lyceum 78-42-M/01}
 \newcommand{\rok}{2022/2023}
@@ -64,7 +60,12 @@ sorting=nty
 
 \newpage
 \input{CONTENT.tex}	
+
+\section*{Závěr}
+
+
 \printbibliography[title={Seznam literatury, pramenů a internetových zdrojů}]
+\newpage
 \appendix
 \input{appendix.tex}
 \end{spacing}

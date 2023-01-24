@@ -6,10 +6,10 @@
 \subsection{Způsoby měření obohacení}
 
 \section{Fyzikální princip měření}
-Celý princip spočívá v tom, že při dopadu gama fotonu na detektor, dojde k pohlcení a předání energie fotonu některému z \e
+Celý princip spočívá v tom, že při dopadu gama fotonu na detektor, dojde k pohlcení a předání energie fotonu některému z \e , který pak buď předá svou energii na foton (scintilační detektory), nebo měříme jeho energii (polovodičové detektory), nebo převede tuto energii na energii chemickou.
 \subsection{Druhy detektorů}
 %objeveni gamma zareni
-Henri Becquerel se v roce 1896 snažil přijít na to, jestli fosforujíci materialy nevydávají podobné záření jako nově objevené Rentgenové záření. Během čehož položil vzorek sulfidu uranu na fotocitlivý papír, který byl ještě zabalený, ale gamma zaření se podařilo proniknout skrz obal, na což přišel jakmile fotocitlivý papír vyvolal. Následně dělal mnoho pokusů, aby vyloučil že se jedná o fosforenci, či nejaké zaření závisle na teplotě, tlaku, či elektřiny.  \cite{Radioactivity}%str 51
+Henri Becquerel se v roce 1896 snažil přijít na to, jestli fosforujíci materialy nevydávají podobné záření jako nově objevené Rentgenové záření. Během čehož položil vzorek sulfidu uranu na fotocitlivý papír, který byl ještě zabalený, ale gamma zaření se podařilo proniknout skrz obal, na což přišel jakmile fotocitlivý papír vyvolal. Následně dělal mnoho dalších pokusů, aby potvrdil, že se nejedná o nějaký již známý efekt.  \cite{Radioactivity}%str 51
 %TODO neelektricke detektory, historie
 
 \subsubsection{Geigerův–Müllerův počítač}
@@ -21,6 +21,7 @@ Scintilační detektory fungují na principu fluorescence a fosforescence, kde $
 Polovodičový detektor je schopen merit energii s jakou foton dopada diky tomu ze pri fotoelektrickem jevu foton preda veskerou svou energii \e a ten pak dale vytrhava \e z el. obalu, diky cemuz jsme schopni urcit jakou energii foton mel. %TODO nejakou nevyhodu
 
 \subsection{Principy měření gamma záření}%TODO udelat >>gamma<< jak promenou aby mi to nekde nekurvylo gama/ gamma kde bychn mel gamu v indexu!!
+Gama záření s detektorem reaguje řadou fyzikálních dějů, mezi hlavní však patří fotoelktrický jev, Comptnův jev a tvorba párů \e a $e^+$. Pro tuto práci bude nejdůležitější fotoelktrický jev, protože se snažime určit energii relativně málo energetickým gama fotonů, které ani nejsou dostatečně silné aby dokázali vytvořit pár \e a $e^+$ \cite{DusanBc}
 %TODO pridat obrazky k ruznym metodam
 \subsubsection{Fotoelektrický effekt}
 Když se do citlivé vrstvy detektoru (u germania díky speciální technice výroby velmi čistého germania v řádu \SI{}{\centi\meter}, u křemíku v řádu \SI{}{\milli\meter})  \cite{Knoll2010} %\footnote{G.F: Knoll str 415}
@@ -72,44 +73,5 @@ Kde $\varepsilon$ je peaková účinnost, $S_{peaku}$ je plocha peaku, bez ploch
 \section{Měření}
 \subsection{Postup měření}%mozna to dat hned pod ten hlavni nadpis
 \subsection{Výsledky měření} %TODO co jsem dát aniž by to nebyla tabulka na 3 strany
-\subsection{Zpracovaní dat}
 %TODO magic kterej je popsanej v vedeckejch studiich ktere jsem cetl
-\newpage
-\section*{Seznam použitých značek, symbolů a zkratek}
-\begin{spacing}{1.2}
-	\begin{list}{}{}
-		\item $A_0$ -- aktivita kalibračního zářiče k referenčnímu datu
-		\item $c$ -- rychlost světla ve vakuu %-- \SI{299792458}{\meter\per\second}
-		\item \e -- elektron%, $m_e = \SI{9.1093837e-31}{\kilogram}$%https://physics.nist.gov/cgi-bin/cuu/Value?me
-		\item $e^+$ -- pozitron, antičástice k \e	
-		\item $\varepsilon$ -- efektivita
-		\item \SI{}{\electronvolt} -- elektron volt -- je to energie, kterou má jeden elektron urychlený napětím $\SI{1}{\volt}$
-		\item FWHM -- Full Width at Half Maximum -- šířka na poloviční výšce peaku
-		\item $\gamma$ -- gama záření -- elektromagnetické záření, původem z jaderných reakcí
-		\item $h$ -- Planckova konstanta -- \SI{6.62607015e-34}{\joule\second} 
-		\item $\hbar$ -- redukovaná Plankova konstanta -- $\hbar = \frac{h}{2\pi}$
-		\item HPGe -- High-Purity Germanium -- detektor z velmi čistého germania
-		\item $I_\gamma$ -- intenzita gama přechodu
-		\item $\lambda$ -- rozpadová konstanta %-- $\frac{\ln(2)}{T_{1/2}}$
-		\item $n$ -- registrovaná četnost
-		\item $N$ -- skutečná četnost
-		\item $\nu$ -- frekvence fotonu
-		\item $S_{peaku}$ -- plocha peaku, bez pozadí
-		\item $t_0$ -- doba mezi referenčním datem a datem měření
-		\item $T_{1/2}$ -- poločas přeměny -- doba, za kterou se přemění $\frac{1}{2}$ celkového počtu jader
-		\item $t_{live}$ -- čistý čas měření
-		\item $t_{real}$ -- celková doba měření
-		\item $\tau$ -- mrtvá doba detektoru	
-	\end{list}
-\end{spacing}
-\newpage
-\addcontentsline{toc}{section}{Seznam použitých odborných výrazů}
-\section*{Seznam použitých odborných výrazů}
-\begin{list}{}{}
-	\item [Fotoelektrický jev] -- jev, při kterém foton vytrhne elektron z elektronového obalu. Popsal jej Albert Einstein v roce 1905. Nezáleží na intenzitě světla, pouze na jeho frekvenci. 
-	\item [Comptonův jev] -- $\gamma$ (popř. rentgenový) foton narazí na \e, předá část své hybnosti \e. Foton (protože ztratí část energie) má v důsledku nižší frekvenci (= větší vlnovou délku), a je vychýlen od původního směru. Objevil jej  Arthur Holly Compton v roce 1923.
-	\item [Vytváření páru pozitron elektron] -- Foton s energií alespoň \SI{1020}{\kilo\electronvolt} se v blízkosti atomového jádra přemění na pár $e^{+}$, $e^{-}$. Objevili jej Blackett a Occhialini v roce 1933.
-	\item [Elektromagnetické záření] -- postupné vlnění magnetického a elektrického pole. Objevil je Michael Faraday v roce 1845. 
-	\item [Spektroskopie] -- obor fyziky, který se snaží zachytit vliv elektromagnetického záření na danou látku.
-\end{list}
 \newpage

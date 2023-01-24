@@ -179,6 +179,34 @@
     \field{year}{2010}
   \endentry
 
+  \entry{DusanBc}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=KD}{%
+         family={Král},
+         familyi={K\bibinitperiod},
+         given={Dušan},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD1}
+    \strng{fullhash}{KD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{STUDIUM VYUŽITÍ THORIA V JADERNÝCH REAKTORECH ŘÍZENÝCH
+  URYCHLOVAČEM}
+    \list{location}{1}{%
+      {Technická 12, Brno}%
+    }
+    \list{institution}{1}{%
+      {Ústav elektroenergeriky Fakulty elektrotechniky a komunikačních
+  technologií VUT v Brně}%
+    }
+    \field{type}{bakalářská práce}
+    \field{year}{2019}
+  \endentry
+
   \entry{Radioactivity}{book}{}
     \name{author}{1}{}{%
       {{hash=LMF}{%
