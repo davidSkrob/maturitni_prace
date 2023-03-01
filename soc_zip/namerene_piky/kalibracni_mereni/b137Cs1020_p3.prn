@@ -1,13 +1,13 @@
 
 
 Sample:                                                                 
-Filename: C:\Users\david\Desktop\maturitni prace\Deimos\b57Co1020_p3.Chn
-File created or changed:   10/26/2022
+Filename: C:\Users\ueen_nuclear\Desktop\Deimos\\b137Cs1020_p3.Chn
+File created or changed:   26/10/2022
 No.of channels: 16100
-Measurement date: 26/Oct/22     16:06
-Evaluated : 10/30/2022 9:49:27 AM
-Live time:   488.0 s   Real time:   504.0 s    Dead time:  3.17 %
-Counts total:   1139166    Input counts/sec:   2334
+Measurement date: 26/Oct/22     16:43
+Evaluated : 27/10/2022 13:53:55
+Live time:   383.0 s   Real time:   395.0 s    Dead time:  3.04 %
+Counts total:    869446    Input counts/sec:   2270
             Satellite peaks:
 s10: 0.000  s11: 0.000  s12: 0.000
 d10:   2.5  d11:   4.0  d12:  10.0
@@ -26,4 +26,4 @@ FWHM: preliminary linear calibration
 
   channel  cherr    energy      area aerr%  fwhm chisq it left   n  lim isotope
 ==============================================================================
-13915.702  1.386   692.079     235.2  13.4 34.15  0.47  29 13857 106  206
+13298.438  0.045   661.672  143473.1   0.4 39.34  2.06  11 13188 218 3151
